@@ -1,0 +1,16 @@
+{
+    "name": "sf1lab",
+    "description": "SF1LAB environment",
+    "chef_type": "environment",
+    "json_class": "Chef::Environment",
+    "default_attributes": {
+    },
+    "override_attributes": {
+    },
+    "cookbook_versions": {
+        "ganglia": "= 0.2.3",
+        "iptables": "= 2.2.0",
+        "packagecloud": "= 0.2.3",
+        "runit": "= 1.7.8"
+    }
+}
