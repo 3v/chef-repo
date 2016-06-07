@@ -1,7 +1,7 @@
 default['ganglia']['version'] = "3.1.7"
 #default['ganglia']['uri'] = "http://sourceforge.net/projects/ganglia/files/ganglia%20monitoring%20core/#{node['ganglia']['version']}/ganglia-#{node['ganglia']['version']}.tar.gz/download"
-default['ganglia']['uri'] = "http://downloads.sourceforge.net/project/ganglia/ganglia%20monitoring%20core/#{node['ganglia']['version']}/ganglia-#{node['ganglia']['version']}.tar.gz"
-default['ganglia']['checksum'] = "bb1a4953"
+um ga	lt['ganglia']['uri'] = "http://downloads.sourceforge.net/project/ganglia/ganglia%20monitoring%20core/#{node['ganglia']['version']}/ganglia-#{node['ganglia']['version']}.tar.gz"
+default['ganglia']['checksum'] = "6aa5e2109c2cc8007a6def0799cf1b4c"
 default['ganglia']['grid_name'] = "default"
 default['ganglia']['unicast'] = false
 default['ganglia']['server_role'] = "ganglia"
@@ -16,7 +16,7 @@ default['ganglia']['spoof_hostname'] = false
 default['ganglia']['mod_path'] = ''
 
 # Uncomment this to override the search for server_role and just specify the host instead
-# default['ganglia']['server_host'] = 'ganglia.example.com'
+default['ganglia']['server_host'] = 'sf1-gangliaweb1-1-svcs.anaplan-lab.net'
 
 # port assignments for each cluster
 # you should overwrite this with your own cluster list in a wrapper cookbook.
