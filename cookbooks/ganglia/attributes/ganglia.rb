@@ -1,7 +1,7 @@
 default['ganglia']['version'] = "3.1.7"
 #default['ganglia']['uri'] = "http://sourceforge.net/projects/ganglia/files/ganglia%20monitoring%20core/#{node['ganglia']['version']}/ganglia-#{node['ganglia']['version']}.tar.gz/download"
 default['ganglia']['uri'] = "http://downloads.sourceforge.net/project/ganglia/ganglia%20monitoring%20core/#{node['ganglia']['version']}/ganglia-#{node['ganglia']['version']}.tar.gz"
-default['ganglia']['checksum'] = "6aa5e2109c2cc8007a6def0799cf1b4c"
+default['ganglia']['checksum'] = "bb1a4953d72e7dace76010a30d6d332e4ac0991d1371dbbcbcc7b048e0a7e4bf"
 default['ganglia']['grid_name'] = "default"
 default['ganglia']['unicast'] = false
 default['ganglia']['server_role'] = "ganglia"
